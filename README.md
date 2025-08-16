@@ -1,47 +1,35 @@
-# 🌦 Simple Weather Prediction App
+# 🌦 Weather Prediction using Machine Learning
 
-This project is a **Machine Learning powered Weather Prediction App** built with **Streamlit**.  
-It predicts the type of weather such as **☀️ Sun, 🌧️ Rain, 🌦️ Drizzle, or ❄️ Snow** based on user inputs like precipitation, temperature, and wind speed.  
-
----
-
-## 📸 Demo Screenshot
-
-![App Screenshot](./screenshot.png)
-
-*(Above: Example interface of the Streamlit app)*
+This project predicts the **type of weather** (e.g., Sun, Rain, Drizzle, Snow) using a trained Machine Learning model.  
+The dataset includes features such as precipitation, maximum temperature, minimum temperature, and wind speed.  
+A **Streamlit web application** is used for interactive, user-friendly predictions.
 
 ---
 
-## 📌 Features
-- User-friendly **Streamlit web interface**  
-- Takes input values:
-  - Precipitation (mm)  
-  - Max Temperature (°C)  
-  - Min Temperature (°C)  
-  - Wind Speed (km/h)  
-- Predicts: **Sun / Rain / Drizzle / Snow**  
-- Clean dark-themed UI  
-- "Developed by Bushra" branding at the bottom  
+## 📌 Project Objective
+
+The main goal is to develop a machine learning model that can classify different weather conditions based on input attributes, and deploy it using **Streamlit** for real-time prediction.
 
 ---
 
-## 📂 Project Structure
-weather-prediction-app/
-│
-├── data/ # Dataset folder
-│ └── weather_data.csv
-│
-├── notebooks/ # Jupyter notebooks
-│ └── weather_prediction.ipynb
-│
-├── src/ # Source code
-│ ├── preprocess.py
-│ ├── model.py
-│ └── predict.py
-│
-├── app.py # Streamlit frontend app
-├── requirements.txt # Dependencies
-├── weather_model.pkl # Trained model (saved)
-├── screenshot.png # App screenshot
+## 🧠 Technologies & Tools Used
+
+- Python  
+- Pandas, NumPy  
+- Scikit-learn / TensorFlow / Keras  
+- Matplotlib, Seaborn  
+- Streamlit (for UI)  
+- Git & GitHub  
+
+---
+
+## 📁 Project Structure
+
+weather-prediction-model/
+
+├── app.py # Streamlit web app
+├── weather_model.pkl # Trained model
+├── requirements.txt # Required Python libraries
+├── weather_data.csv # Dataset for training
+├── weather_prediction.ipynb # Jupyter notebook (model building)
 └── README.md # Project documentation
