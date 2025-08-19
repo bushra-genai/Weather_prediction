@@ -33,3 +33,8 @@ weather-prediction-model/
 ├── weather_data.csv # Dataset for training
 ├── weather_prediction.ipynb # Jupyter notebook (model building)
 └── README.md # Project documentation
+
+
+Author
+Bushra Sarwar
+📧 bushrasarwar589@gmail.com
